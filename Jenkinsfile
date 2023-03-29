@@ -1,5 +1,4 @@
 pipeline {
-    pipeline {
     agent {
        label external_agent
     }
