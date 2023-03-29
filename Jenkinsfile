@@ -1,6 +1,6 @@
 pipeline {
     agent {
-       label 'jenkis_agent_docker'
+       label 'external_agent'
     }
     options {
         // Timeout counter starts AFTER agent is allocated
